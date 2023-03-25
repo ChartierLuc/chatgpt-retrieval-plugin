@@ -1,0 +1,15 @@
+{
+    "name": "sanative-chatgpt-plugin",
+    "private": true,
+    "workspaces": [
+      "web"
+    ],
+    "scripts": {
+        "dev": "yarn workspace web astro dev",
+        "start": "yarn workspace web astro dev",
+        "build": "yarn workspace web astro build",
+        "preview": "yarn workspace web astro preview",
+        "astro": "yarn workspace web astro"
+    },
+    "packageManager": "yarn@3.2.3"
+  }

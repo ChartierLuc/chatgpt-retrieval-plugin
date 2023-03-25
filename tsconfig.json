@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+      "strictNullChecks": true,
+      "noUncheckedIndexedAccess": true,
+      "paths": {
+        "web/*": ["./web/*"],
+      }
+    },
+    "extends": "astro/tsconfigs/base"
+  }
+  
